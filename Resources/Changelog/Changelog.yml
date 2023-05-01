@@ -1,24 +1,4 @@
 Entries:
-- author: metalgearsloth
-  changes:
-  - {message: Lava is now clickable., type: Tweak}
-  id: 3091
-  time: '2023-03-03T00:01:07.0000000+00:00'
-- author: Errant
-  changes:
-  - {message: Salvage magnet shows remaining cooldown time when examined., type: Tweak}
-  id: 3092
-  time: '2023-03-03T16:25:43.0000000+00:00'
-- author: Nylux
-  changes:
-  - {message: Changed the name of planet-related tiles to be more readable., type: Tweak}
-  id: 3093
-  time: '2023-03-04T04:50:43.0000000+00:00'
-- author: crazybrain
-  changes:
-  - {message: Cardboard boxes now have airholes to prevent suffocation., type: Fix}
-  id: 3094
-  time: '2023-03-04T19:45:31.0000000+00:00'
 - author: 08A
   changes:
   - {message: Added the pipe layer in construction mode for the majority of atmos
@@ -2881,3 +2861,29 @@ Entries:
       when wearing a rig and bandolier, type: Tweak}
   id: 3590
   time: '2023-05-01T02:16:29.0000000+00:00'
+- author: deltanedas
+  changes:
+  - {message: Entering your ringtone uplink code now locks and unlocks your uplink
+      rather then directly opening it., type: Tweak}
+  - {message: 'When you set ringtone, if it is your uplink code it will not be saved.',
+    type: Tweak}
+  id: 3591
+  time: '2023-05-01T06:30:09.0000000+00:00'
+- author: MagnusCrowe
+  changes:
+  - {message: Added the paramedic role, type: Add}
+  id: 3592
+  time: '2023-05-01T07:13:57.0000000+00:00'
+- author: Nimfar
+  changes:
+  - {message: 'Three kinds of aggressive slimes, and their peaceful versions', type: Add}
+  - {message: 'A new event for the station, in which slimes come out of the vent scrubber.',
+    type: Add}
+  id: 3593
+  time: '2023-05-01T08:21:39.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Camera rotation should be more responsive after recently traversing
+      a grid., type: Tweak}
+  id: 3594
+  time: '2023-05-01T08:29:35.0000000+00:00'
