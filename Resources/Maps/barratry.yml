@@ -10429,8 +10429,7 @@ entities:
     - type: RadiationGridResistance
     - id: Barratry
       type: BecomesStation
-    - nextUpdate: 0
-      type: SpreaderGrid
+    - type: SpreaderGrid
   - uid: 5005
     components:
     - type: MetaData
@@ -10440,169 +10439,6 @@ entities:
     - type: Broadphase
     - type: OccluderTree
     - type: LoadedMap
-  - uid: 5016
-    components:
-    - type: MetaData
-    - pos: 821.8614,492.24304
-      parent: 5005
-      type: Transform
-    - chunks:
-        0,0:
-          ind: 0,0
-          tiles: XQAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAFdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        -1,-1:
-          ind: -1,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAF0AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAF0AAAAAAAAAXQAAAF0AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAABeAAAAXgAAAF0AAABdAAAAXgAAAAAAAABeAAAAXgAAAF4AAABOAAAAAAAAAF0AAABeAAAAXgAAAF0AAABdAAAAXgAAAF0AAAAAAAAAXgAAAE4AAABeAAAATgAAAE4AAABdAAAAXgAAAF4AAABeAAAATgAAAF0AAABEAAACTgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAARAAAAF4AAABeAAAAWwAAA14AAABbAAADXgAAAFEAAANRAAADXgAAAF4AAABRAAABUQAAA1EAAANRAAADXgAAAF4AAABOAAAAXgAAAF4AAABbAAAAXgAAAF4AAABRAAAAXgAAAFEAAABeAAAAUQAAA1EAAANRAAACUQAAAVEAAANeAAAATgAAAF4AAABbAAACXgAAAFsAAAJeAAAAUQAAA1EAAAJRAAACUQAAA1EAAABRAAACUQAAAlEAAABeAAAARAAAAF4AAABeAAAAXgAAAF4AAABbAAACXgAAAFEAAAFRAAADUQAAAVEAAABRAAACUQAAAVEAAAJRAAABXgAAAF0AAABeAAAAXgAAAF4AAABbAAAAXgAAAF4AAABRAAABXgAAAFEAAAFeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABdAAAAUQAAAV4AAABRAAADUQAAA1EAAANRAAADUQAAAFEAAAFRAAABUQAAAlEAAANRAAAAUQAAAFEAAANRAAADXgAAAF4AAABeAAAAUQAAAVEAAAFRAAACUQAAAFEAAAFRAAABXQAAAFEAAAJRAAABUQAAAlEAAANRAAAAXQAAAEQAAABRAAAAXgAAAFEAAANRAAAAUQAAAVEAAABRAAABXQAAAAAAAABdAAAAUQAAAl4AAABeAAAAXgAAAF4AAABdAAAAUQAAAFEAAANRAAABUQAAAFEAAANRAAABUQAAAVEAAABdAAAAUQAAAFEAAANEAAABRAAAAUQAAAJEAAAARAAAAQ==
-        -1,0:
-          ind: -1,0
-          tiles: UQAAA14AAABRAAAAUQAAAVEAAAFRAAAAUQAAAVEAAAJRAAADUQAAAlEAAAJEAAABRAAAAl4AAABEAAADXgAAAF4AAABeAAAAUQAAAlEAAANRAAABUQAAA1EAAABRAAABUQAAAVEAAANRAAACXgAAAF4AAABEAAABXgAAAF0AAABOAAAAXgAAAFEAAABRAAADXgAAAFEAAANRAAADXgAAAFEAAANRAAAAUQAAAl4AAABeAAAARAAAAV4AAAAAAAAAXgAAAF4AAABRAAACUQAAAl4AAABRAAAAUQAAAF4AAABRAAABUQAAAVEAAABeAAAAXgAAAF4AAABeAAAAXgAAAE4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAUQAAAlEAAAFRAAACXgAAAF4AAABeAAAAXgAAAF0AAABeAAAATgAAAE4AAABOAAAAAAAAAF4AAABeAAAAXgAAAFEAAAFRAAACUQAAAl4AAABeAAAATgAAAF4AAABEAAAAXgAAAF0AAAAAAAAAXQAAAF4AAABeAAAAXgAAAF4AAABeAAAAXgAAAF4AAABeAAAAXQAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAXQAAAF4AAABeAAAAXQAAAE4AAABOAAAAXgAAAF0AAABOAAAAXgAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAABeAAAAXQAAAE4AAABeAAAAAAAAAF0AAABeAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        0,-1:
-          ind: 0,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-        -2,-1:
-          ind: -2,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAF0AAABdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAABdAAAAXgAAAE4AAABeAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAE4AAABeAAAAXgAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAXgAAAF4AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeAAAATgAAAF4AAABeAAAAUQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAABdAAAAXgAAAF4AAABeAAAAUQAAAlEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAXgAAAFEAAANeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAABeAAAAXgAAAF4AAABRAAACXgAAAA==
-        -2,0:
-          ind: -2,0
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAF4AAABeAAAAUQAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATgAAAF4AAABeAAAAXgAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAF4AAABdAAAAXQAAAF4AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeAAAAAAAAAF0AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXQAAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF0AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-      type: MapGrid
-    - type: Broadphase
-    - angularDamping: 0.05
-      linearDamping: 0.05
-      fixedRotation: False
-      bodyType: Dynamic
-      type: Physics
-    - fixtures: []
-      type: Fixtures
-    - type: OccluderTree
-    - nextUpdate: 0
-      type: SpreaderGrid
-    - type: Shuttle
-    - nextUpdate: 1770.7593829
-      type: GridPathfinding
-    - gravityShakeSound: !type:SoundPathSpecifier
-        path: /Audio/Effects/alert.ogg
-      type: Gravity
-    - chunkCollection:
-        version: 2
-        nodes: []
-      type: DecalGrid
-    - version: 2
-      data:
-        tiles:
-          0,0:
-            0: 275
-          -2,-2:
-            0: 65535
-          -2,-1:
-            0: 65535
-          -2,0:
-            0: 65535
-          -3,-2:
-            0: 65535
-          -3,-1:
-            0: 65535
-          -1,-2:
-            0: 65535
-          -1,-1:
-            0: 65535
-          -3,0:
-            0: 65535
-          -1,0:
-            0: 65535
-          0,-2:
-            0: 12545
-          0,-1:
-            0: 4369
-          0,1:
-            0: 19
-          -4,-4:
-            0: 12288
-          -4,-3:
-            0: 65406
-          -4,-2:
-            0: 65535
-          -4,-1:
-            0: 65535
-          -3,-4:
-            0: 36864
-          -3,-3:
-            0: 65531
-          -2,-3:
-            0: 65527
-          -2,-4:
-            0: 24576
-          -1,-3:
-            0: 65535
-          -1,-4:
-            0: 8192
-          -4,0:
-            0: 65535
-          -4,1:
-            0: 56319
-          -3,1:
-            0: 65519
-          -3,2:
-            0: 77
-          -2,1:
-            0: 65535
-          -2,2:
-            0: 411
-          -1,1:
-            0: 4607
-          -1,2:
-            0: 3
-          0,-3:
-            0: 4880
-          -6,-1:
-            0: 51432
-          -6,-2:
-            0: 2240
-          -5,-2:
-            0: 65533
-          -5,-1:
-            0: 65279
-          -5,-3:
-            0: 35968
-          -6,0:
-            0: 35968
-          -6,1:
-            0: 8
-          -5,0:
-            0: 28671
-          -5,1:
-            0: 200
-        uniqueMixes:
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 21.824879
-          - 82.10312
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        chunkSize: 4
-      type: GridAtmosphere
-    - type: GasTileOverlay
-    - type: RadiationGridResistance
-  - uid: 15661
-    components:
-    - name: Urist McSlime
-      type: MetaData
-    - pos: -11.588601,-0.51173973
-      parent: 5016
-      type: Transform
-    - attributes:
-        proper: true
-        gender: Male
-      type: Grammar
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 14704
@@ -11370,11 +11206,6 @@ entities:
     - pos: 6.5,37.5
       parent: 1
       type: Transform
-  - uid: 5066
-    components:
-    - pos: -19.5,-2.5
-      parent: 5016
-      type: Transform
   - uid: 5586
     components:
     - pos: -2.5,36.5
@@ -11610,11 +11441,6 @@ entities:
     - pos: 1.5,23.5
       parent: 1
       type: Transform
-  - uid: 15585
-    components:
-    - pos: -7.5,-4.5
-      parent: 5016
-      type: Transform
 - proto: AirlockChiefEngineerLocked
   entities:
   - uid: 5301
@@ -11639,11 +11465,6 @@ entities:
     components:
     - pos: 13.5,28.5
       parent: 1
-      type: Transform
-  - uid: 14979
-    components:
-    - pos: -12.5,-4.5
-      parent: 5016
       type: Transform
 - proto: AirlockCommandGlassLocked
   entities:
@@ -11789,12 +11610,6 @@ entities:
     components:
     - pos: -62.5,32.5
       parent: 1
-      type: Transform
-  - uid: 13795
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -9.5,6.5
-      parent: 5016
       type: Transform
 - proto: AirlockExternal
   entities:
@@ -12026,6 +11841,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12066,6 +11882,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12107,6 +11924,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12148,6 +11966,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12191,6 +12010,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12232,6 +12052,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12273,6 +12094,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12314,6 +12136,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12356,6 +12179,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12396,6 +12220,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12436,6 +12261,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12476,6 +12302,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12516,6 +12343,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12556,6 +12384,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       - shape: !type:PhysShapeCircle
           radius: 0.2
           position: 0,-0.5
@@ -12863,11 +12692,6 @@ entities:
     - pos: -3.5,18.5
       parent: 1
       type: Transform
-  - uid: 5117
-    components:
-    - pos: -4.5,-9.5
-      parent: 5016
-      type: Transform
 - proto: AirlockMaintCommandLocked
   entities:
   - uid: 6397
@@ -13122,11 +12946,6 @@ entities:
       pos: -2.5,16.5
       parent: 1
       type: Transform
-  - uid: 15603
-    components:
-    - pos: -6.5,6.5
-      parent: 5016
-      type: Transform
 - proto: AirlockMaintRnDLocked
   entities:
   - uid: 226
@@ -13213,26 +13032,6 @@ entities:
     components:
     - pos: 1.5,30.5
       parent: 1
-      type: Transform
-  - uid: 5024
-    components:
-    - pos: -1.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 5025
-    components:
-    - pos: -4.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 5027
-    components:
-    - pos: -4.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15604
-    components:
-    - pos: -14.5,-0.5
-      parent: 5016
       type: Transform
 - proto: AirlockMedicalLocked
   entities:
@@ -13353,16 +13152,6 @@ entities:
     components:
     - pos: 1.5,7.5
       parent: 1
-      type: Transform
-  - uid: 5050
-    components:
-    - pos: -4.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 5051
-    components:
-    - pos: -1.5,2.5
-      parent: 5016
       type: Transform
   - uid: 5319
     components:
@@ -13752,28 +13541,6 @@ entities:
     - rot: -1.5707963267948966 rad
       pos: 16.5,44.5
       parent: 1
-      type: Transform
-  - uid: 15638
-    components:
-    - pos: -8.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15639
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -18.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15640
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -10.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15641
-    components:
-    - pos: -6.5,-4.5
-      parent: 5016
       type: Transform
 - proto: APCElectronics
   entities:
@@ -14913,81 +14680,6 @@ entities:
     - pos: 8.5,-14.5
       parent: 1
       type: Transform
-  - uid: 15567
-    components:
-    - pos: -3.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15568
-    components:
-    - pos: -2.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15571
-    components:
-    - pos: -5.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15573
-    components:
-    - pos: -7.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 15574
-    components:
-    - pos: -3.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15575
-    components:
-    - pos: -13.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 15576
-    components:
-    - pos: -12.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15578
-    components:
-    - pos: -15.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15579
-    components:
-    - pos: -17.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 15583
-    components:
-    - pos: -6.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15584
-    components:
-    - pos: -5.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15625
-    components:
-    - pos: -12.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15666
-    components:
-    - pos: -13.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15667
-    components:
-    - pos: -9.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15668
-    components:
-    - pos: -0.5,0.5
-      parent: 5016
-      type: Transform
 - proto: BarSign
   entities:
   - uid: 5279
@@ -15042,24 +14734,6 @@ entities:
     - pos: 10.680454,33.64544
       parent: 1
       type: Transform
-  - uid: 15610
-    components:
-    - pos: -7.5614014,-8.148102
-      parent: 5016
-      type: Transform
-    - nextAttack: 1200.0234652
-      type: MeleeWeapon
-    - nextSound: 1200.2234652
-      type: EmitSoundOnCollide
-  - uid: 15611
-    components:
-    - pos: -7.3582764,-8.241852
-      parent: 5016
-      type: Transform
-    - nextAttack: 1200.398467
-      type: MeleeWeapon
-    - nextSound: 1200.598467
-      type: EmitSoundOnCollide
 - proto: Bed
   entities:
   - uid: 616
@@ -15261,20 +14935,6 @@ entities:
     - pos: 9.5,45.5
       parent: 1
       type: Transform
-  - uid: 11880
-    components:
-    - pos: -12.5,3.5
-      parent: 5016
-      type: Transform
-    - nextSound: 654.9018548
-      type: EmitSoundOnCollide
-  - uid: 11881
-    components:
-    - pos: -10.5,3.5
-      parent: 5016
-      type: Transform
-    - nextSound: 655.3048561
-      type: EmitSoundOnCollide
 - proto: BedsheetOrange
   entities:
   - uid: 1910
@@ -15370,13 +15030,11 @@ entities:
       type: Transform
 - proto: BiomassReclaimerMachineCircuitboard
   entities:
-  - uid: 15624
+  - uid: 2375
     components:
-    - pos: -16.47583,0.5916748
-      parent: 5016
+    - pos: 4.5097117,38.40509
+      parent: 1
       type: Transform
-    - nextSound: 1266.0015059
-      type: EmitSoundOnCollide
 - proto: BlastDoor
   entities:
   - uid: 42
@@ -16173,22 +15831,6 @@ entities:
         - port: Pressed
           uid: 15218
       type: SignalReceiver
-- proto: Bloodpack
-  entities:
-  - uid: 15626
-    components:
-    - pos: -9.648682,3.6204834
-      parent: 5016
-      type: Transform
-    - nextSound: 1296.996229
-      type: EmitSoundOnCollide
-  - uid: 15627
-    components:
-    - pos: -9.320557,3.6048584
-      parent: 5016
-      type: Transform
-    - nextSound: 1298.4402583
-      type: EmitSoundOnCollide
 - proto: Blunt
   entities:
   - uid: 14943
@@ -16674,20 +16316,6 @@ entities:
     - pos: -1.5990932,33.97799
       parent: 1
       type: Transform
-  - uid: 15600
-    components:
-    - pos: -7.623596,4.7508545
-      parent: 5016
-      type: Transform
-    - nextSound: 1135.5789591
-      type: EmitSoundOnCollide
-  - uid: 15601
-    components:
-    - pos: -7.389221,4.6102295
-      parent: 5016
-      type: Transform
-    - nextSound: 1136.0069371
-      type: EmitSoundOnCollide
 - proto: Bucket
   entities:
   - uid: 6946
@@ -27157,302 +26785,6 @@ entities:
       type: Transform
     - enabled: True
       type: AmbientSound
-  - uid: 15712
-    components:
-    - pos: -10.5,-6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15713
-    components:
-    - pos: -11.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15714
-    components:
-    - pos: -12.5,-6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15715
-    components:
-    - pos: -12.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 15716
-    components:
-    - pos: -12.5,-5.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15717
-    components:
-    - pos: -12.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15718
-    components:
-    - pos: -18.5,-2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15719
-    components:
-    - pos: -17.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15720
-    components:
-    - pos: -16.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15721
-    components:
-    - pos: -16.5,-1.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15722
-    components:
-    - pos: -16.5,-0.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15723
-    components:
-    - pos: -8.5,2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15724
-    components:
-    - pos: -8.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15725
-    components:
-    - pos: -8.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15726
-    components:
-    - pos: -9.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15727
-    components:
-    - pos: -10.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15728
-    components:
-    - pos: -11.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15729
-    components:
-    - pos: -12.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15730
-    components:
-    - pos: -7.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15731
-    components:
-    - pos: -6.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15732
-    components:
-    - pos: -11.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15733
-    components:
-    - pos: -11.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 15734
-    components:
-    - pos: -11.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15735
-    components:
-    - pos: -10.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15736
-    components:
-    - pos: -10.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15737
-    components:
-    - pos: -12.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15738
-    components:
-    - pos: -12.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15739
-    components:
-    - pos: -6.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15740
-    components:
-    - pos: -6.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15741
-    components:
-    - pos: -6.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 15742
-    components:
-    - pos: -6.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15743
-    components:
-    - pos: -5.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15744
-    components:
-    - pos: -4.5,2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15745
-    components:
-    - pos: -3.5,2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15746
-    components:
-    - pos: -2.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15747
-    components:
-    - pos: -2.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15748
-    components:
-    - pos: -2.5,0.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15749
-    components:
-    - pos: -6.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15750
-    components:
-    - pos: -6.5,-1.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15751
-    components:
-    - pos: -6.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15752
-    components:
-    - pos: -5.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15753
-    components:
-    - pos: -4.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15754
-    components:
-    - pos: -3.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15755
-    components:
-    - pos: -2.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15756
-    components:
-    - pos: -6.5,-4.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15757
-    components:
-    - pos: -6.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 15758
-    components:
-    - pos: -6.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15759
-    components:
-    - pos: -6.5,-7.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15760
-    components:
-    - pos: -7.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15761
-    components:
-    - pos: -8.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15762
-    components:
-    - pos: -5.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15763
-    components:
-    - pos: -4.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15764
-    components:
-    - pos: -3.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15765
-    components:
-    - pos: -3.5,-7.5
-      parent: 5016
-      type: Transform
 - proto: CableApcStack
   entities:
   - uid: 2887
@@ -36733,246 +36065,6 @@ entities:
       type: Transform
     - enabled: True
       type: AmbientSound
-  - uid: 15670
-    components:
-    - pos: -9.5,5.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15671
-    components:
-    - pos: -9.5,6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15672
-    components:
-    - pos: -9.5,7.5
-      parent: 5016
-      type: Transform
-  - uid: 15673
-    components:
-    - pos: -8.5,7.5
-      parent: 5016
-      type: Transform
-  - uid: 15674
-    components:
-    - pos: -7.5,7.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15675
-    components:
-    - pos: -6.5,7.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15676
-    components:
-    - pos: -6.5,6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15677
-    components:
-    - pos: -6.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 15678
-    components:
-    - pos: -6.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15679
-    components:
-    - pos: -6.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 15680
-    components:
-    - pos: -6.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15681
-    components:
-    - pos: -7.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 15682
-    components:
-    - pos: -8.5,2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15683
-    components:
-    - pos: -6.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 15684
-    components:
-    - pos: -6.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15685
-    components:
-    - pos: -6.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15686
-    components:
-    - pos: -6.5,-1.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15687
-    components:
-    - pos: -6.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15688
-    components:
-    - pos: -6.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15689
-    components:
-    - pos: -6.5,-4.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15690
-    components:
-    - pos: -7.5,-0.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15691
-    components:
-    - pos: -8.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15692
-    components:
-    - pos: -9.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15693
-    components:
-    - pos: -10.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15694
-    components:
-    - pos: -11.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15695
-    components:
-    - pos: -12.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15696
-    components:
-    - pos: -13.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15697
-    components:
-    - pos: -14.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15698
-    components:
-    - pos: -15.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15699
-    components:
-    - pos: -16.5,-0.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15700
-    components:
-    - pos: -16.5,-1.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15701
-    components:
-    - pos: -16.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15702
-    components:
-    - pos: -17.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15703
-    components:
-    - pos: -18.5,-2.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15704
-    components:
-    - pos: -12.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 15705
-    components:
-    - pos: -12.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15706
-    components:
-    - pos: -12.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15707
-    components:
-    - pos: -12.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15708
-    components:
-    - pos: -12.5,-5.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15709
-    components:
-    - pos: -12.5,-6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
-  - uid: 15710
-    components:
-    - pos: -11.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15711
-    components:
-    - pos: -10.5,-6.5
-      parent: 5016
-      type: Transform
-    - enabled: True
-      type: AmbientSound
 - proto: CableMVStack
   entities:
   - uid: 2888
@@ -42128,12 +41220,6 @@ entities:
       pos: -12.5,61.5
       parent: 1
       type: Transform
-  - uid: 12015
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -2.5,0.5
-      parent: 5016
-      type: Transform
   - uid: 13320
     components:
     - pos: -0.5,8.5
@@ -42243,30 +41329,6 @@ entities:
     components:
     - pos: 15.5,32.5
       parent: 1
-      type: Transform
-  - uid: 14985
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -9.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 14986
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -2.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 14987
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -5.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15619
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -12.5,-8.5
-      parent: 5016
       type: Transform
 - proto: ChairPilotSeat
   entities:
@@ -42526,19 +41588,20 @@ entities:
     - pos: -11.474969,-1.4294147
       parent: 1
       type: Transform
+- proto: CloningConsoleComputerCircuitboard
+  entities:
+  - uid: 1962
+    components:
+    - pos: 4.518286,38.90027
+      parent: 1
+      type: Transform
 - proto: CloningPodMachineCircuitboard
   entities:
-  - uid: 14981
+  - uid: 2373
     components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 14980
+    - pos: 4.487036,37.5167
+      parent: 1
       type: Transform
-    - nextSound: 1038.6353569
-      type: EmitSoundOnCollide
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClosetBase
   entities:
   - uid: 630
@@ -43442,16 +42505,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 15628
-    components:
-    - pos: -3.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15637
-    components:
-    - pos: -2.5,-10.5
-      parent: 5016
-      type: Transform
 - proto: ClosetFireFilled
   entities:
   - uid: 295
@@ -43593,6 +42646,7 @@ entities:
         hard: True
         restitution: 0
         friction: 0.4
+        id: null
       type: Fixtures
     - open: True
       removedMasks: 20
@@ -44103,16 +43157,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 15642
-    components:
-    - pos: -3.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 15644
-    components:
-    - pos: -3.5,-10.5
-      parent: 5016
-      type: Transform
 - proto: ClosetJanitorFilled
   entities:
   - uid: 7071
@@ -44123,42 +43167,52 @@ entities:
     - contents:
       - maxAmount: 1
         amount: 1
+        orGroup: null
         prob: 0.01
         id: WeaponPistolMk58
       - maxAmount: 1
         amount: 2
+        orGroup: null
         prob: 1
         id: MopItem
       - maxAmount: 1
         amount: 2
+        orGroup: null
         prob: 1
         id: BoxMousetrap
       - maxAmount: 1
         amount: 3
+        orGroup: null
         prob: 1
         id: WetFloorSign
       - maxAmount: 1
         amount: 2
+        orGroup: null
         prob: 1
         id: TrashBag
       - maxAmount: 1
         amount: 1
+        orGroup: null
         prob: 1
         id: LightReplacer
       - maxAmount: 1
         amount: 1
+        orGroup: null
         prob: 1
         id: BoxLightMixed
       - maxAmount: 1
         amount: 1
+        orGroup: null
         prob: 1
         id: Holoprojector
       - maxAmount: 1
         amount: 2
+        orGroup: null
         prob: 1
         id: SoapNT
       - maxAmount: 1
         amount: 2
+        orGroup: null
         prob: 1
         id: FlashlightLantern
       type: StorageFill
@@ -45019,21 +44073,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 15632
-    components:
-    - pos: -12.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 15636
-    components:
-    - pos: -16.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 15643
-    components:
-    - pos: -5.5,-10.5
-      parent: 5016
-      type: Transform
 - proto: ClosetToolFilled
   entities:
   - uid: 1118
@@ -45105,11 +44144,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 15635
-    components:
-    - pos: -15.5,-5.5
-      parent: 5016
-      type: Transform
 - proto: ClothingBackpackClown
   entities:
   - uid: 4232
@@ -45215,15 +44249,6 @@ entities:
     - pos: -53.472584,-1.3838406
       parent: 1
       type: Transform
-- proto: ClothingHandsGlovesLatex
-  entities:
-  - uid: 15664
-    components:
-    - pos: -10.782593,-0.5871277
-      parent: 5016
-      type: Transform
-    - nextSound: 1735.866643
-      type: EmitSoundOnCollide
 - proto: ClothingHandsGlovesNitrile
   entities:
   - uid: 12776
@@ -45403,15 +44428,6 @@ entities:
     - pos: -57.70341,92.69456
       parent: 1
       type: Transform
-- proto: ClothingHeadNurseHat
-  entities:
-  - uid: 15665
-    components:
-    - pos: -11.360779,0.3692627
-      parent: 5016
-      type: Transform
-    - nextSound: 1754.9566517
-      type: EmitSoundOnCollide
 - proto: ClothingMaskBreathMedical
   entities:
   - uid: 12777
@@ -45779,15 +44795,6 @@ entities:
     - pos: 18.682804,15.786684
       parent: 1
       type: Transform
-- proto: ClothingShoesColorWhite
-  entities:
-  - uid: 15663
-    components:
-    - pos: -11.563843,-1.1652527
-      parent: 5016
-      type: Transform
-    - nextSound: 1722.0455914
-      type: EmitSoundOnCollide
 - proto: ClothingShoesWizard
   entities:
   - uid: 6833
@@ -45817,17 +44824,6 @@ entities:
       type: Transform
     - canCollide: False
       type: Physics
-- proto: ClothingUniformJumpskirtMedicalDoctor
-  entities:
-  - uid: 15648
-    components:
-    - pos: -12.110718,-0.5558777
-      parent: 5016
-      type: Transform
-    - nextUpdate: 1714.089591
-      type: SuitSensor
-    - nextSound: 1714.289591
-      type: EmitSoundOnCollide
 - proto: ClothingUniformJumpskirtPerformer
   entities:
   - uid: 10960
@@ -45962,12 +44958,6 @@ entities:
     - pos: 13.5,-7.5
       parent: 1
       type: Transform
-  - uid: 12009
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -2.5,-0.5
-      parent: 5016
-      type: Transform
 - proto: ComputerCargoOrders
   entities:
   - uid: 3619
@@ -45988,14 +44978,6 @@ entities:
     components:
     - pos: -39.5,-1.5
       parent: 1
-      type: Transform
-- proto: ComputerCloningConsole
-  entities:
-  - uid: 15580
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -16.5,-3.5
-      parent: 5016
       type: Transform
 - proto: ComputerComms
   entities:
@@ -46071,12 +45053,6 @@ entities:
     components:
     - pos: 0.5,34.5
       parent: 1
-      type: Transform
-  - uid: 14984
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -13.5,-8.5
-      parent: 5016
       type: Transform
 - proto: ComputerPowerMonitoring
   entities:
@@ -46802,6 +45778,7 @@ entities:
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
+          ent: null
       type: ContainerContainer
     - currentLabel: For Med
       type: Label
@@ -47013,6 +45990,7 @@ entities:
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
+          ent: null
       type: ContainerContainer
 - proto: CrayonMime
   entities:
@@ -47154,78 +46132,6 @@ entities:
   - uid: 4136
     components:
     - pos: -23.476833,24.553741
-      parent: 1
-      type: Transform
-- proto: DefibrillatorCabinetFilled
-  entities:
-  - uid: 1962
-    components:
-    - pos: 7.5,27.5
-      parent: 1
-      type: Transform
-  - uid: 2373
-    components:
-    - pos: 10.5,21.5
-      parent: 1
-      type: Transform
-  - uid: 2374
-    components:
-    - pos: -4.5,35.5
-      parent: 1
-      type: Transform
-  - uid: 2375
-    components:
-    - pos: 7.5,32.5
-      parent: 1
-      type: Transform
-  - uid: 5006
-    components:
-    - pos: -43.5,34.5
-      parent: 1
-      type: Transform
-  - uid: 5007
-    components:
-    - pos: -55.5,45.5
-      parent: 1
-      type: Transform
-  - uid: 5008
-    components:
-    - pos: -59.5,15.5
-      parent: 1
-      type: Transform
-  - uid: 5009
-    components:
-    - pos: -42.5,3.5
-      parent: 1
-      type: Transform
-  - uid: 5010
-    components:
-    - pos: -21.5,3.5
-      parent: 1
-      type: Transform
-  - uid: 5011
-    components:
-    - pos: 4.5,7.5
-      parent: 1
-      type: Transform
-  - uid: 5012
-    components:
-    - pos: 24.5,10.5
-      parent: 1
-      type: Transform
-  - uid: 5013
-    components:
-    - pos: -14.5,45.5
-      parent: 1
-      type: Transform
-  - uid: 5014
-    components:
-    - pos: -39.5,19.5
-      parent: 1
-      type: Transform
-  - uid: 5015
-    components:
-    - pos: -50.5,30.5
       parent: 1
       type: Transform
 - proto: DeployableBarrier
@@ -50739,27 +49645,6 @@ entities:
     - pos: -4.4894724,20.463743
       parent: 1
       type: Transform
-  - uid: 15614
-    components:
-    - pos: -6.2645264,-8.257477
-      parent: 5016
-      type: Transform
-    - nextSound: 1206.1754633
-      type: EmitSoundOnCollide
-  - uid: 15615
-    components:
-    - pos: -6.2645264,-8.460602
-      parent: 5016
-      type: Transform
-    - nextSound: 1207.0424638
-      type: EmitSoundOnCollide
-  - uid: 15616
-    components:
-    - pos: -6.2489014,-8.585602
-      parent: 5016
-      type: Transform
-    - nextSound: 1207.6464953
-      type: EmitSoundOnCollide
 - proto: ElectricGuitarInstrument
   entities:
   - uid: 4138
@@ -53650,41 +52535,6 @@ entities:
       pos: -15.5,51.5
       parent: 1
       type: Transform
-  - uid: 11882
-    components:
-    - pos: -7.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11883
-    components:
-    - pos: -6.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11884
-    components:
-    - pos: -5.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11885
-    components:
-    - pos: -13.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11972
-    components:
-    - pos: -12.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11973
-    components:
-    - pos: -10.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11994
-    components:
-    - pos: -9.5,2.5
-      parent: 5016
-      type: Transform
   - uid: 13076
     components:
     - rot: 1.5707963267948966 rad
@@ -54048,48 +52898,6 @@ entities:
     - pos: -59.5,-10.5
       parent: 1
       type: Transform
-  - uid: 5067
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5068
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 5078
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 5104
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5105
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 5107
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 5108
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-3.5
-      parent: 5016
-      type: Transform
   - uid: 5210
     components:
     - pos: -55.5,4.5
@@ -54354,11 +53162,6 @@ entities:
     - pos: -65.5,34.5
       parent: 1
       type: Transform
-  - uid: 11995
-    components:
-    - pos: -14.5,-0.5
-      parent: 5016
-      type: Transform
   - uid: 13307
     components:
     - pos: 2.5,27.5
@@ -54415,21 +53218,6 @@ entities:
     - rot: 3.141592653589793 rad
       pos: 26.5,4.5
       parent: 1
-      type: Transform
-  - uid: 15629
-    components:
-    - pos: -9.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15630
-    components:
-    - pos: -7.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15631
-    components:
-    - pos: -1.5,-7.5
-      parent: 5016
       type: Transform
 - proto: Fireplace
   entities:
@@ -54517,6 +53305,7 @@ entities:
       parent: 1
       type: Transform
     - toggleAction:
+        sound: null
         itemIconStyle: BigItem
         icon:
           sprite: Objects/Tools/flashlight.rsi
@@ -54527,6 +53316,8 @@ entities:
         description: action-description-toggle-light
         keywords: []
         enabled: True
+        useDelay: null
+        charges: null
         checkCanInteract: True
         clientExclusive: False
         priority: 0
@@ -79092,16 +77883,6 @@ entities:
     - pos: -63.5,38.5
       parent: 1
       type: Transform
-  - uid: 12017
-    components:
-    - pos: -7.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 12022
-    components:
-    - pos: -6.5,-9.5
-      parent: 5016
-      type: Transform
   - uid: 13344
     components:
     - pos: -2.5,13.5
@@ -79945,36 +78726,6 @@ entities:
     - pos: -60.5,-8.5
       parent: 1
       type: Transform
-  - uid: 5022
-    components:
-    - pos: -3.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5023
-    components:
-    - pos: -2.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5031
-    components:
-    - pos: -3.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5034
-    components:
-    - pos: -2.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5042
-    components:
-    - pos: -4.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 5043
-    components:
-    - pos: -1.5,1.5
-      parent: 5016
-      type: Transform
   - uid: 5074
     components:
     - pos: -76.5,4.5
@@ -79989,36 +78740,6 @@ entities:
     components:
     - pos: -76.5,6.5
       parent: 1
-      type: Transform
-  - uid: 5109
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5113
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 5121
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5167
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 5168
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-5.5
-      parent: 5016
       type: Transform
   - uid: 5175
     components:
@@ -80689,11 +79410,6 @@ entities:
     - pos: -47.5,52.5
       parent: 1
       type: Transform
-  - uid: 8617
-    components:
-    - pos: -13.5,-4.5
-      parent: 5016
-      type: Transform
   - uid: 8970
     components:
     - pos: -55.5,74.5
@@ -81263,41 +79979,11 @@ entities:
     - pos: -57.5,68.5
       parent: 1
       type: Transform
-  - uid: 11475
-    components:
-    - pos: -14.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 11503
-    components:
-    - pos: -14.5,-1.5
-      parent: 5016
-      type: Transform
   - uid: 11509
     components:
     - rot: 1.5707963267948966 rad
       pos: -84.5,50.5
       parent: 1
-      type: Transform
-  - uid: 11821
-    components:
-    - pos: -14.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 11849
-    components:
-    - pos: -14.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 11870
-    components:
-    - pos: -11.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11872
-    components:
-    - pos: -11.5,2.5
-      parent: 5016
       type: Transform
   - uid: 13752
     components:
@@ -83445,30 +82131,10 @@ entities:
       type: MovementSpeedModifier
     - type: GhostTakeoverAvailable
     - type: Mind
-    - lerpTarget: 0
-      type: InputMover
+    - type: InputMover
     - type: MobMover
     - type: MovementAlwaysTouching
     - type: CanEscapeInventory
-- proto: HeadSlime
-  entities:
-  - uid: 15660
-    components:
-    - pos: -11.53531,-0.39686796
-      parent: 5016
-      type: Transform
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
 - proto: HighSecArmoryLocked
   entities:
   - uid: 7869
@@ -83534,26 +82200,6 @@ entities:
     components:
     - pos: 9.5,30.5
       parent: 1
-      type: Transform
-  - uid: 11861
-    components:
-    - pos: -13.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11862
-    components:
-    - pos: -12.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11874
-    components:
-    - pos: -10.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 11875
-    components:
-    - pos: -9.5,2.5
-      parent: 5016
       type: Transform
   - uid: 15349
     components:
@@ -84268,11 +82914,6 @@ entities:
     - pos: -58.5,89.5
       parent: 1
       type: Transform
-  - uid: 15608
-    components:
-    - pos: -3.5,-5.5
-      parent: 5016
-      type: Transform
 - proto: KitchenSpike
   entities:
   - uid: 6924
@@ -84408,41 +83049,6 @@ entities:
     - pos: -26.981983,53.509666
       parent: 1
       type: Transform
-  - uid: 14712
-    components:
-    - pos: -7.512268,-10.508881
-      parent: 5016
-      type: Transform
-  - uid: 14940
-    components:
-    - pos: -0.48651123,-1.4818726
-      parent: 5016
-      type: Transform
-  - uid: 14992
-    components:
-    - pos: 0.51348877,-4.4506226
-      parent: 5016
-      type: Transform
-  - uid: 14995
-    components:
-    - pos: -8.492249,8.49646
-      parent: 5016
-      type: Transform
-  - uid: 14998
-    components:
-    - pos: -10.507874,7.49646
-      parent: 5016
-      type: Transform
-  - uid: 15001
-    components:
-    - pos: -6.5021973,5.530884
-      parent: 5016
-      type: Transform
-  - uid: 15002
-    components:
-    - pos: -2.512085,2.461609
-      parent: 5016
-      type: Transform
   - uid: 15456
     components:
     - pos: -42.49931,68.53585
@@ -84468,21 +83074,6 @@ entities:
     - pos: -39.483685,68.52357
       parent: 1
       type: Transform
-  - uid: 15566
-    components:
-    - pos: -3.52771,0.5084839
-      parent: 5016
-      type: Transform
-  - uid: 15577
-    components:
-    - pos: -12.499573,-5.203064
-      parent: 5016
-      type: Transform
-  - uid: 15669
-    components:
-    - pos: -16.45288,-7.494507
-      parent: 5016
-      type: Transform
 - proto: lantern
   entities:
   - uid: 621
@@ -84503,24 +83094,6 @@ entities:
     - pos: -0.2943699,22.171614
       parent: 1
       type: Transform
-  - uid: 15612
-    components:
-    - pos: -5.4520264,-8.132477
-      parent: 5016
-      type: Transform
-    - nextAttack: 1202.3524947
-      type: MeleeWeapon
-    - nextSound: 1202.5524946
-      type: EmitSoundOnCollide
-  - uid: 15613
-    components:
-    - pos: -5.7332764,-8.304352
-      parent: 5016
-      type: Transform
-    - nextAttack: 1202.95152
-      type: MeleeWeapon
-    - nextSound: 1203.1515199
-      type: EmitSoundOnCollide
 - proto: LauncherCreamPie
   entities:
   - uid: 4241
@@ -84528,94 +83101,6 @@ entities:
     - pos: -42.484016,28.536114
       parent: 1
       type: Transform
-- proto: LeftArmSlime
-  entities:
-  - uid: 15652
-    components:
-    - pos: -11.705397,-0.38657022
-      parent: 5016
-      type: Transform
-    - children:
-        left hand:
-          type: Hand
-          parent: 15652
-          id: left hand
-      type: BodyPart
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: LeftFootSlime
-  entities:
-  - uid: 15657
-    components:
-    - pos: -11.727894,-0.6746818
-      parent: 5016
-      type: Transform
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: LeftHandSlime
-  entities:
-  - uid: 15653
-    components:
-    - pos: -11.811635,-0.3067408
-      parent: 5016
-      type: Transform
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: LeftLegSlime
-  entities:
-  - uid: 15656
-    components:
-    - pos: -11.91878,-0.46465462
-      parent: 5016
-      type: Transform
-    - children:
-        left foot:
-          type: Foot
-          parent: 15656
-          id: left foot
-      type: BodyPart
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
 - proto: LockerAtmosphericsFilled
   entities:
   - uid: 10746
@@ -84877,13 +83362,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-- proto: LockerChemistry
-  entities:
-  - uid: 5170
-    components:
-    - pos: -9.5,-7.5
-      parent: 5016
-      type: Transform
 - proto: LockerChemistryFilled
   entities:
   - uid: 1946
@@ -84932,11 +83410,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 5169
-    components:
-    - pos: -9.5,-8.5
-      parent: 5016
-      type: Transform
 - proto: LockerChiefEngineerFilled
   entities:
   - uid: 10725
@@ -84962,20 +83435,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-- proto: LockerChiefMedicalOfficer
-  entities:
-  - uid: 14980
-    components:
-    - pos: -11.5,-5.5
-      parent: 5016
-      type: Transform
-    - containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 14981
-      type: ContainerContainer
 - proto: LockerChiefMedicalOfficerFilled
   entities:
   - uid: 12784
@@ -85653,13 +84112,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-- proto: LockerSecurity
-  entities:
-  - uid: 12020
-    components:
-    - pos: -3.5,-0.5
-      parent: 5016
-      type: Transform
 - proto: LockerSecurityFilled
   entities:
   - uid: 1923
@@ -86049,21 +84501,6 @@ entities:
     - pos: 4.5,36.5
       parent: 1
       type: Transform
-  - uid: 5171
-    components:
-    - pos: -5.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 5188
-    components:
-    - pos: -3.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 5190
-    components:
-    - pos: -2.5,-8.5
-      parent: 5016
-      type: Transform
   - uid: 9968
     components:
     - pos: -84.5,26.5
@@ -86099,20 +84536,6 @@ entities:
     - pos: -12.5,-14.5
       parent: 1
       type: Transform
-  - uid: 15581
-    components:
-    - pos: -17.5,-3.5
-      parent: 5016
-      type: Transform
-- proto: MachineFrameDestroyed
-  entities:
-  - uid: 15582
-    components:
-    - pos: -15.5,-3.5
-      parent: 5016
-      type: Transform
-    - bodyType: Static
-      type: Physics
 - proto: MachineParticleAcceleratorEmitterCenterCircuitboard
   entities:
   - uid: 9961
@@ -86792,25 +85215,13 @@ entities:
     - pos: 9.5,45.5
       parent: 1
       type: Transform
-  - uid: 11878
-    components:
-    - pos: -10.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11879
-    components:
-    - pos: -12.5,3.5
-      parent: 5016
-      type: Transform
 - proto: MedicalScannerMachineCircuitboard
   entities:
-  - uid: 15623
+  - uid: 2374
     components:
-    - pos: -17.43695,0.59472656
-      parent: 5016
+    - pos: 4.487036,37.938576
+      parent: 1
       type: Transform
-    - nextSound: 1249.5144637
-      type: EmitSoundOnCollide
 - proto: MedkitAdvancedFilled
   entities:
   - uid: 2319
@@ -86839,13 +85250,6 @@ entities:
     - pos: -26.503302,55.403595
       parent: 1
       type: Transform
-  - uid: 15597
-    components:
-    - pos: -13.467957,3.5228577
-      parent: 5016
-      type: Transform
-    - nextSound: 1126.5029471
-      type: EmitSoundOnCollide
 - proto: MedkitFilled
   entities:
   - uid: 1989
@@ -86863,13 +85267,6 @@ entities:
     - pos: -20.50132,63.5821
       parent: 1
       type: Transform
-  - uid: 15598
-    components:
-    - pos: -7.514221,5.5164795
-      parent: 5016
-      type: Transform
-    - nextSound: 1128.3599394
-      type: EmitSoundOnCollide
 - proto: MedkitOxygenFilled
   entities:
   - uid: 2315
@@ -86882,13 +85279,6 @@ entities:
     - pos: -11.50255,62.54268
       parent: 1
       type: Transform
-  - uid: 15599
-    components:
-    - pos: -7.420471,5.1414795
-      parent: 5016
-      type: Transform
-    - nextSound: 1131.2489397
-      type: EmitSoundOnCollide
 - proto: MedkitRadiationFilled
   entities:
   - uid: 2314
@@ -87298,13 +85688,6 @@ entities:
     - pos: -24.502523,29.558752
       parent: 1
       type: Transform
-  - uid: 15620
-    components:
-    - pos: -16.991455,0.6229248
-      parent: 5016
-      type: Transform
-    - nextSound: 1270.9345389
-      type: EmitSoundOnCollide
 - proto: NanoManipulatorStockPart
   entities:
   - uid: 1671
@@ -87383,11 +85766,6 @@ entities:
     components:
     - pos: -60.5,17.5
       parent: 1
-      type: Transform
-  - uid: 15647
-    components:
-    - pos: -19.5,-0.5
-      parent: 5016
       type: Transform
 - proto: NitrogenTank
   entities:
@@ -87486,13 +85864,6 @@ entities:
     - pos: 9.930454,33.52044
       parent: 1
       type: Transform
-  - uid: 15602
-    components:
-    - pos: -7.295471,4.6883545
-      parent: 5016
-      type: Transform
-    - nextSound: 1140.9689355
-      type: EmitSoundOnCollide
 - proto: Omnitool
   entities:
   - uid: 14946
@@ -87568,15 +85939,6 @@ entities:
     - pos: 18.880354,28.451818
       parent: 1
       type: Transform
-- proto: OrganSlimeLungs
-  entities:
-  - uid: 15651
-    components:
-    - pos: -11.550008,-0.24158436
-      parent: 5016
-      type: Transform
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
 - proto: OxygenCanister
   entities:
   - uid: 5656
@@ -89164,6 +87526,8 @@ entities:
       pos: -12.5,-8.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 382
@@ -89172,6 +87536,8 @@ entities:
       pos: -10.5,-5.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 383
@@ -89180,6 +87546,8 @@ entities:
       pos: -9.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 384
@@ -89188,6 +87556,8 @@ entities:
       pos: -13.5,1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 385
@@ -89196,6 +87566,8 @@ entities:
       pos: -3.5,-5.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 386
@@ -89204,6 +87576,8 @@ entities:
       pos: -3.5,1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 387
@@ -89212,6 +87586,8 @@ entities:
       pos: 2.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1020
@@ -89219,6 +87595,8 @@ entities:
     - pos: 26.5,28.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1533
@@ -89227,6 +87605,8 @@ entities:
       pos: -18.5,-3.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1838
@@ -89235,6 +87615,8 @@ entities:
       pos: 11.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1839
@@ -89243,6 +87625,8 @@ entities:
       pos: 13.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1840
@@ -89251,6 +87635,8 @@ entities:
       pos: 17.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1841
@@ -89259,6 +87645,8 @@ entities:
       pos: 20.5,0.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1842
@@ -89266,6 +87654,8 @@ entities:
     - pos: 7.5,-1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 1843
@@ -89274,6 +87664,8 @@ entities:
       pos: 7.5,1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2009
@@ -89282,6 +87674,8 @@ entities:
       pos: -0.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2012
@@ -89290,6 +87684,8 @@ entities:
       pos: 2.5,22.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2013
@@ -89298,6 +87694,8 @@ entities:
       pos: 2.5,34.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2014
@@ -89306,6 +87704,8 @@ entities:
       pos: 5.5,28.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2015
@@ -89314,6 +87714,8 @@ entities:
       pos: 11.5,33.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2018
@@ -89321,6 +87723,8 @@ entities:
     - pos: 7.5,37.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2073
@@ -89328,6 +87732,8 @@ entities:
     - pos: 6.5,20.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2074
@@ -89335,6 +87741,8 @@ entities:
     - pos: 8.5,26.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2075
@@ -89343,6 +87751,8 @@ entities:
       pos: -0.5,14.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2076
@@ -89350,6 +87760,8 @@ entities:
     - pos: 2.5,17.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2077
@@ -89358,6 +87770,8 @@ entities:
       pos: 11.5,17.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2078
@@ -89366,6 +87780,8 @@ entities:
       pos: 6.5,14.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2079
@@ -89374,6 +87790,8 @@ entities:
       pos: 11.5,11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2408
@@ -89382,6 +87800,8 @@ entities:
       pos: -2.5,19.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2409
@@ -89390,6 +87810,8 @@ entities:
       pos: -4.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2410
@@ -89398,6 +87820,8 @@ entities:
       pos: 0.5,27.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2432
@@ -89406,6 +87830,8 @@ entities:
       pos: -3.5,29.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2433
@@ -89413,6 +87839,8 @@ entities:
     - pos: -0.5,34.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2754
@@ -89421,6 +87849,8 @@ entities:
       pos: -9.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2755
@@ -89428,6 +87858,8 @@ entities:
     - pos: -2.5,6.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2756
@@ -89436,6 +87868,8 @@ entities:
       pos: 3.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2757
@@ -89443,6 +87877,8 @@ entities:
     - pos: 13.5,6.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2758
@@ -89451,6 +87887,8 @@ entities:
       pos: 21.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2759
@@ -89459,6 +87897,8 @@ entities:
       pos: 28.5,9.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2760
@@ -89467,6 +87907,8 @@ entities:
       pos: 28.5,17.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2809
@@ -89475,6 +87917,8 @@ entities:
       pos: -18.5,3.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2810
@@ -89483,6 +87927,8 @@ entities:
       pos: -11.5,22.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2811
@@ -89490,6 +87936,8 @@ entities:
     - pos: -12.5,33.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2812
@@ -89498,6 +87946,8 @@ entities:
       pos: -8.5,27.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 2971
@@ -89506,6 +87956,8 @@ entities:
       pos: 27.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3210
@@ -89514,6 +87966,8 @@ entities:
       pos: -27.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3407
@@ -89522,6 +87976,8 @@ entities:
       pos: -28.5,10.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3408
@@ -89530,6 +87986,8 @@ entities:
       pos: -22.5,11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3409
@@ -89538,6 +87996,8 @@ entities:
       pos: -31.5,9.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3410
@@ -89546,6 +88006,8 @@ entities:
       pos: -27.5,15.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3411
@@ -89553,6 +88015,8 @@ entities:
     - pos: -24.5,18.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3696
@@ -89561,6 +88025,8 @@ entities:
       pos: -41.5,-7.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3766
@@ -89568,6 +88034,8 @@ entities:
     - pos: -35.5,7.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3767
@@ -89576,6 +88044,8 @@ entities:
       pos: -31.5,1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3768
@@ -89584,6 +88054,8 @@ entities:
       pos: -41.5,2.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3769
@@ -89592,6 +88064,8 @@ entities:
       pos: -36.5,-3.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3771
@@ -89599,6 +88073,8 @@ entities:
     - pos: -43.5,-1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3772
@@ -89607,6 +88083,8 @@ entities:
       pos: -46.5,1.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3773
@@ -89615,6 +88093,8 @@ entities:
       pos: -44.5,-7.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3833
@@ -89623,6 +88103,8 @@ entities:
       pos: -35.5,-12.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3835
@@ -89631,6 +88113,8 @@ entities:
       pos: -43.5,-11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 3871
@@ -89639,6 +88123,8 @@ entities:
       pos: -45.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4242
@@ -89647,6 +88133,8 @@ entities:
       pos: -24.5,26.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4243
@@ -89655,6 +88143,8 @@ entities:
       pos: -28.5,26.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4244
@@ -89662,6 +88152,8 @@ entities:
     - pos: -34.5,29.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4245
@@ -89670,6 +88162,8 @@ entities:
       pos: -31.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4246
@@ -89678,6 +88172,8 @@ entities:
       pos: -42.5,25.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4247
@@ -89686,6 +88182,8 @@ entities:
       pos: -33.5,15.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4248
@@ -89694,6 +88192,8 @@ entities:
       pos: -32.5,21.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4249
@@ -89702,6 +88202,8 @@ entities:
       pos: -38.5,19.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4250
@@ -89710,6 +88212,8 @@ entities:
       pos: -38.5,13.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4251
@@ -89718,6 +88222,8 @@ entities:
       pos: -38.5,26.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4252
@@ -89726,6 +88232,8 @@ entities:
       pos: -29.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4253
@@ -89734,6 +88242,8 @@ entities:
       pos: -20.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4743
@@ -89742,6 +88252,8 @@ entities:
       pos: -79.5,-11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4769
@@ -89750,6 +88262,8 @@ entities:
       pos: -63.5,-11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4770
@@ -89758,6 +88272,8 @@ entities:
       pos: -37.5,-11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4905
@@ -89766,6 +88282,8 @@ entities:
       pos: -74.5,-14.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4906
@@ -89774,6 +88292,8 @@ entities:
       pos: -64.5,-14.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4980
@@ -89782,6 +88302,8 @@ entities:
       pos: -79.5,-9.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 4983
@@ -89789,6 +88311,8 @@ entities:
     - pos: -74.5,-9.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5191
@@ -89797,6 +88321,8 @@ entities:
       pos: -56.5,-2.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5192
@@ -89805,6 +88331,8 @@ entities:
       pos: -74.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5193
@@ -89812,6 +88340,8 @@ entities:
     - pos: -67.5,6.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5194
@@ -89820,6 +88350,8 @@ entities:
       pos: -59.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5196
@@ -89828,6 +88360,8 @@ entities:
       pos: -56.5,11.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5197
@@ -89836,6 +88370,8 @@ entities:
       pos: -52.5,14.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5198
@@ -89844,6 +88380,8 @@ entities:
       pos: -52.5,19.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5199
@@ -89852,6 +88390,8 @@ entities:
       pos: -56.5,25.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5200
@@ -89860,6 +88400,8 @@ entities:
       pos: -54.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5201
@@ -89868,6 +88410,8 @@ entities:
       pos: -43.5,30.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5202
@@ -89876,6 +88420,8 @@ entities:
       pos: -54.5,28.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5203
@@ -89884,6 +88430,8 @@ entities:
       pos: -47.5,28.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5204
@@ -89891,6 +88439,8 @@ entities:
     - pos: -51.5,25.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5326
@@ -89898,6 +88448,8 @@ entities:
     - pos: -53.5,10.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5327
@@ -89906,6 +88458,8 @@ entities:
       pos: -46.5,9.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 5337
@@ -89914,6 +88468,8 @@ entities:
       pos: -54.5,4.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 7137
@@ -89922,6 +88478,8 @@ entities:
       pos: -58.5,40.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8582
@@ -89930,6 +88488,8 @@ entities:
       pos: -41.5,63.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8584
@@ -89937,6 +88497,8 @@ entities:
     - pos: -47.5,65.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8585
@@ -89945,6 +88507,8 @@ entities:
       pos: -50.5,62.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8586
@@ -89953,6 +88517,8 @@ entities:
       pos: -60.5,60.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8587
@@ -89961,6 +88527,8 @@ entities:
       pos: -56.5,64.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8588
@@ -89969,6 +88537,8 @@ entities:
       pos: -58.5,64.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8589
@@ -89977,6 +88547,8 @@ entities:
       pos: -46.5,59.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8590
@@ -89985,6 +88557,8 @@ entities:
       pos: -46.5,53.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8591
@@ -89993,6 +88567,8 @@ entities:
       pos: -50.5,57.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8592
@@ -90001,6 +88577,8 @@ entities:
       pos: -55.5,53.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8593
@@ -90009,6 +88587,8 @@ entities:
       pos: -57.5,58.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8594
@@ -90017,6 +88597,8 @@ entities:
       pos: -60.5,63.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8595
@@ -90024,6 +88606,8 @@ entities:
     - pos: -62.5,55.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 8596
@@ -90032,6 +88616,8 @@ entities:
       pos: -61.5,50.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9259
@@ -90040,6 +88626,8 @@ entities:
       pos: -55.5,46.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9260
@@ -90048,6 +88636,8 @@ entities:
       pos: -50.5,46.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9377
@@ -90056,6 +88646,8 @@ entities:
       pos: -46.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9543
@@ -90064,6 +88656,8 @@ entities:
       pos: -17.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9544
@@ -90071,6 +88665,8 @@ entities:
     - pos: -11.5,44.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9545
@@ -90079,6 +88675,8 @@ entities:
       pos: -11.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9546
@@ -90087,6 +88685,8 @@ entities:
       pos: -17.5,49.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9547
@@ -90095,6 +88695,8 @@ entities:
       pos: -10.5,48.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9548
@@ -90103,6 +88705,8 @@ entities:
       pos: -22.5,46.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9549
@@ -90111,6 +88715,8 @@ entities:
       pos: -22.5,39.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9550
@@ -90119,6 +88725,8 @@ entities:
       pos: -27.5,37.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9551
@@ -90127,6 +88735,8 @@ entities:
       pos: -30.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9552
@@ -90135,6 +88745,8 @@ entities:
       pos: -35.5,35.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9553
@@ -90143,6 +88755,8 @@ entities:
       pos: -41.5,35.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9554
@@ -90150,6 +88764,8 @@ entities:
     - pos: -43.5,39.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9555
@@ -90158,6 +88774,8 @@ entities:
       pos: -38.5,42.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9556
@@ -90165,6 +88783,8 @@ entities:
     - pos: -33.5,47.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9557
@@ -90173,6 +88793,8 @@ entities:
       pos: -27.5,46.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9587
@@ -90181,6 +88803,8 @@ entities:
       pos: -23.5,54.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9588
@@ -90188,6 +88812,8 @@ entities:
     - pos: -12.5,57.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9589
@@ -90196,6 +88822,8 @@ entities:
       pos: -18.5,55.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9590
@@ -90204,6 +88832,8 @@ entities:
       pos: -6.5,54.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9591
@@ -90212,6 +88842,8 @@ entities:
       pos: -8.5,59.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9593
@@ -90220,6 +88852,8 @@ entities:
       pos: -12.5,59.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9594
@@ -90228,6 +88862,8 @@ entities:
       pos: -12.5,63.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9595
@@ -90236,6 +88872,8 @@ entities:
       pos: -20.5,63.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 9596
@@ -90244,6 +88882,8 @@ entities:
       pos: -20.5,59.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 11013
@@ -90252,6 +88892,8 @@ entities:
       pos: -64.5,40.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 11014
@@ -90259,6 +88901,8 @@ entities:
     - pos: -61.5,45.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 12774
@@ -90267,6 +88911,8 @@ entities:
       pos: 16.5,30.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13323
@@ -90274,6 +88920,8 @@ entities:
     - pos: -0.5,10.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13699
@@ -90282,6 +88930,8 @@ entities:
       pos: -42.5,41.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13700
@@ -90290,6 +88940,8 @@ entities:
       pos: -44.5,47.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13701
@@ -90298,6 +88950,8 @@ entities:
       pos: -39.5,51.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13765
@@ -90306,6 +88960,8 @@ entities:
       pos: -24.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13844
@@ -90314,6 +88970,8 @@ entities:
       pos: -31.5,-8.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13850
@@ -90321,6 +88979,8 @@ entities:
     - pos: 30.5,10.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13851
@@ -90329,6 +88989,8 @@ entities:
       pos: 30.5,16.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 13853
@@ -90337,6 +88999,8 @@ entities:
       pos: -31.5,-2.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14466
@@ -90345,6 +89009,8 @@ entities:
       pos: -83.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14471
@@ -90352,6 +89018,8 @@ entities:
     - pos: -79.5,27.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14473
@@ -90360,6 +89028,8 @@ entities:
       pos: -73.5,25.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14474
@@ -90368,6 +89038,8 @@ entities:
       pos: -71.5,19.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14475
@@ -90376,6 +89048,8 @@ entities:
       pos: -63.5,19.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14476
@@ -90383,6 +89057,8 @@ entities:
     - pos: -67.5,23.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14477
@@ -90391,6 +89067,8 @@ entities:
       pos: -71.5,15.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14478
@@ -90399,6 +89077,8 @@ entities:
       pos: -74.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14479
@@ -90406,6 +89086,8 @@ entities:
     - pos: -69.5,35.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14480
@@ -90414,6 +89096,8 @@ entities:
       pos: -63.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14481
@@ -90422,6 +89106,8 @@ entities:
       pos: -67.5,27.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14482
@@ -90430,6 +89116,8 @@ entities:
       pos: -61.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14483
@@ -90438,6 +89126,8 @@ entities:
       pos: -76.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14484
@@ -90446,6 +89136,8 @@ entities:
       pos: -82.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14485
@@ -90454,6 +89146,8 @@ entities:
       pos: -77.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14486
@@ -90462,6 +89156,8 @@ entities:
       pos: -77.5,44.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14487
@@ -90470,6 +89166,8 @@ entities:
       pos: -86.5,46.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14488
@@ -90478,6 +89176,8 @@ entities:
       pos: -86.5,42.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14489
@@ -90486,6 +89186,8 @@ entities:
       pos: -86.5,38.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14490
@@ -90494,6 +89196,8 @@ entities:
       pos: -86.5,34.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14491
@@ -90502,6 +89206,8 @@ entities:
       pos: -90.5,35.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14492
@@ -90510,6 +89216,8 @@ entities:
       pos: -90.5,37.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14493
@@ -90518,6 +89226,8 @@ entities:
       pos: -90.5,39.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14494
@@ -90526,6 +89236,8 @@ entities:
       pos: -90.5,41.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14495
@@ -90534,6 +89246,8 @@ entities:
       pos: -90.5,43.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14496
@@ -90542,6 +89256,8 @@ entities:
       pos: -90.5,45.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14497
@@ -90549,6 +89265,8 @@ entities:
     - pos: -83.5,50.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14498
@@ -90556,6 +89274,8 @@ entities:
     - pos: -81.5,50.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14855
@@ -90563,6 +89283,8 @@ entities:
     - pos: 7.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14856
@@ -90570,6 +89292,8 @@ entities:
     - pos: 11.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 14857
@@ -90577,85 +89301,10 @@ entities:
     - pos: 9.5,31.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
-  - uid: 15766
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -16.5,-3.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15767
-    components:
-    - pos: -12.5,3.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15768
-    components:
-    - pos: -10.5,3.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15769
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -11.5,-3.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15770
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -5.5,-1.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15771
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -7.5,4.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15772
-    components:
-    - pos: -2.5,2.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15773
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -3.5,-8.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15774
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -9.5,-6.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
-  - uid: 15775
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -11.5,-7.5
-      parent: 5016
-      type: Transform
-    - enabled: False
-      type: AmbientSound
 - proto: PoweredLightPostSmall
   entities:
   - uid: 15563
@@ -90680,6 +89329,8 @@ entities:
     - pos: -48.5,-15.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 15427
@@ -90687,6 +89338,8 @@ entities:
     - pos: -41.5,58.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 15428
@@ -90695,6 +89348,8 @@ entities:
       pos: -38.5,63.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
   - uid: 15429
@@ -90703,6 +89358,8 @@ entities:
       pos: -42.5,68.5
       parent: 1
       type: Transform
+    - enabled: False
+      type: AmbientSound
     - powerLoad: 0
       type: ApcPowerReceiver
 - proto: PoweredSmallLight
@@ -91509,30 +90166,6 @@ entities:
     - pos: -5.5,1.5
       parent: 1
       type: Transform
-- proto: Puddle
-  entities:
-  - uid: 15662
-    components:
-    - pos: -11.5,-0.5
-      parent: 5016
-      type: Transform
-    - solutions:
-        puddle:
-          temperature: 293.15
-          canMix: False
-          canReact: True
-          maxVol: 1000
-          reagents:
-          - Quantity: 300
-            ReagentId: Slime
-      type: SolutionContainerManager
-    - active: False
-      type: StepTrigger
-    - dnas:
-      - ACTAGTCGCCATTAAC
-      fibers: []
-      fingerprints: []
-      type: Forensics
 - proto: Rack
   entities:
   - uid: 1832
@@ -92151,17 +90784,6 @@ entities:
     - rot: -1.5707963267948966 rad
       pos: -62.5,10.5
       parent: 1
-      type: Transform
-  - uid: 15645
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -19.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 15646
-    components:
-    - pos: -19.5,0.5
-      parent: 5016
       type: Transform
 - proto: RailingCorner
   entities:
@@ -95396,36 +94018,6 @@ entities:
     - pos: -73.5,-13.5
       parent: 1
       type: Transform
-  - uid: 5017
-    components:
-    - pos: -1.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 5020
-    components:
-    - pos: -2.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5021
-    components:
-    - pos: -3.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5029
-    components:
-    - pos: -3.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5030
-    components:
-    - pos: -2.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5038
-    components:
-    - pos: -4.5,1.5
-      parent: 5016
-      type: Transform
   - uid: 5069
     components:
     - pos: -76.5,4.5
@@ -95440,30 +94032,6 @@ entities:
     components:
     - pos: -76.5,6.5
       parent: 1
-      type: Transform
-  - uid: 5110
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 5111
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 5112
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 5125
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,-4.5
-      parent: 5016
       type: Transform
   - uid: 5172
     components:
@@ -96053,11 +94621,6 @@ entities:
     - pos: -57.5,48.5
       parent: 1
       type: Transform
-  - uid: 8616
-    components:
-    - pos: -13.5,-4.5
-      parent: 5016
-      type: Transform
   - uid: 9033
     components:
     - pos: -36.5,63.5
@@ -96388,26 +94951,6 @@ entities:
       pos: -82.5,49.5
       parent: 1
       type: Transform
-  - uid: 10846
-    components:
-    - pos: -14.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 10847
-    components:
-    - pos: -14.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 10849
-    components:
-    - pos: -14.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 10850
-    components:
-    - pos: -14.5,0.5
-      parent: 5016
-      type: Transform
   - uid: 11508
     components:
     - rot: 1.5707963267948966 rad
@@ -96512,94 +95055,6 @@ entities:
     - canCollide: False
       type: Physics
     - type: InsideEntityStorage
-- proto: RightArmSlime
-  entities:
-  - uid: 15654
-    components:
-    - pos: -11.814864,-0.2842598
-      parent: 5016
-      type: Transform
-    - children:
-        right hand:
-          type: Hand
-          parent: 15654
-          id: right hand
-      type: BodyPart
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: RightFootSlime
-  entities:
-  - uid: 15659
-    components:
-    - pos: -11.513787,-0.40124455
-      parent: 5016
-      type: Transform
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: RightHandSlime
-  entities:
-  - uid: 15655
-    components:
-    - pos: -11.6504,-0.09715068
-      parent: 5016
-      type: Transform
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-- proto: RightLegSlime
-  entities:
-  - uid: 15658
-    components:
-    - pos: -11.671562,-0.44873276
-      parent: 5016
-      type: Transform
-    - children:
-        right foot:
-          type: Foot
-          parent: 15658
-          id: right foot
-      type: BodyPart
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
 - proto: RubberStampApproved
   entities:
   - uid: 7583
@@ -96668,23 +95123,6 @@ entities:
     - pos: -58.5,83.5
       parent: 1
       type: Transform
-- proto: SentientSlimeCore
-  entities:
-  - uid: 15650
-    components:
-    - pos: -11.579887,-0.44003454
-      parent: 5016
-      type: Transform
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-    - type: Mind
-    - type: GhostOnMove
-    - lerpTarget: 0
-      type: InputMover
-    - baseSprintSpeed: 0
-      baseWalkSpeed: 0
-      acceleration: 0
-      type: MovementSpeedModifier
 - proto: SheetGlass
   entities:
   - uid: 262
@@ -96740,15 +95178,6 @@ entities:
       pos: -53.107254,29.575062
       parent: 1
       type: Transform
-- proto: SheetPlasma1
-  entities:
-  - uid: 15609
-    components:
-    - pos: -2.5614014,-5.429352
-      parent: 5016
-      type: Transform
-    - nextSound: 1197.0304686
-      type: EmitSoundOnCollide
 - proto: SheetPlasteel
   entities:
   - uid: 13603
@@ -98414,48 +96843,6 @@ entities:
     - pos: 28.5,-27.5
       parent: 1
       type: Transform
-- proto: SpaceTickSpawner
-  entities:
-  - uid: 14993
-    components:
-    - pos: -12.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 14994
-    components:
-    - pos: -10.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 14996
-    components:
-    - pos: -8.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 14997
-    components:
-    - pos: -5.5,2.5
-      parent: 5016
-      type: Transform
-  - uid: 14999
-    components:
-    - pos: -7.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 15000
-    components:
-    - pos: -3.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 15003
-    components:
-    - pos: -2.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15004
-    components:
-    - pos: -5.5,-3.5
-      parent: 5016
-      type: Transform
 - proto: SpawnMobAlexander
   entities:
   - uid: 14184
@@ -98476,68 +96863,6 @@ entities:
     components:
     - pos: 7.5,51.5
       parent: 1
-      type: Transform
-  - uid: 14877
-    components:
-    - pos: -17.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 14977
-    components:
-    - pos: -11.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 14978
-    components:
-    - pos: -13.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 14991
-    components:
-    - pos: -15.5,-2.5
-      parent: 5016
-      type: Transform
-  - uid: 15605
-    components:
-    - pos: -9.5,-0.5
-      parent: 5016
-      type: Transform
-- proto: SpawnMobCarp
-  entities:
-  - uid: 14675
-    components:
-    - pos: -12.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 14708
-    components:
-    - pos: -10.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 14710
-    components:
-    - pos: -9.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 14711
-    components:
-    - pos: -6.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 14963
-    components:
-    - pos: -8.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 14964
-    components:
-    - pos: -6.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 14976
-    components:
-    - pos: -3.5,-7.5
-      parent: 5016
       type: Transform
 - proto: SpawnMobCarpHolo
   entities:
@@ -99386,50 +97711,6 @@ entities:
     - pos: -77.5,45.5
       parent: 1
       type: Transform
-- proto: StrangePill
-  entities:
-  - uid: 15591
-    components:
-    - pos: -9.707703,-4.3320923
-      parent: 5016
-      type: Transform
-    - nextSound: 1112.2389351
-      type: EmitSoundOnCollide
-  - uid: 15592
-    components:
-    - pos: -9.317078,-4.5352173
-      parent: 5016
-      type: Transform
-    - nextSound: 1112.6809665
-      type: EmitSoundOnCollide
-  - uid: 15593
-    components:
-    - pos: -9.535828,-4.4570923
-      parent: 5016
-      type: Transform
-    - nextSound: 1113.8949395
-      type: EmitSoundOnCollide
-  - uid: 15594
-    components:
-    - pos: -1.4420776,-7.1914673
-      parent: 5016
-      type: Transform
-    - nextSound: 1114.7959426
-      type: EmitSoundOnCollide
-  - uid: 15595
-    components:
-    - pos: -1.6295776,-7.4414673
-      parent: 5016
-      type: Transform
-    - nextSound: 1115.5649352
-      type: EmitSoundOnCollide
-  - uid: 15596
-    components:
-    - pos: -1.3952026,-7.5820923
-      parent: 5016
-      type: Transform
-    - nextSound: 1116.0239697
-      type: EmitSoundOnCollide
 - proto: Stunbaton
   entities:
   - uid: 7999
@@ -99518,11 +97799,6 @@ entities:
     components:
     - pos: -79.5,27.5
       parent: 1
-      type: Transform
-  - uid: 13852
-    components:
-    - pos: -9.5,5.5
-      parent: 5016
       type: Transform
 - proto: SubstationMachineCircuitboard
   entities:
@@ -100166,20 +98442,6 @@ entities:
           - Quantity: 15
             ReagentId: Hyronalin
       type: SolutionContainerManager
-  - uid: 15617
-    components:
-    - pos: -7.0614014,-8.382477
-      parent: 5016
-      type: Transform
-    - nextSound: 1220.0454897
-      type: EmitSoundOnCollide
-  - uid: 15618
-    components:
-    - pos: -6.8582764,-8.413727
-      parent: 5016
-      type: Transform
-    - nextSound: 1220.7914853
-      type: EmitSoundOnCollide
 - proto: SyringeEphedrine
   entities:
   - uid: 14369
@@ -100703,30 +98965,6 @@ entities:
     components:
     - pos: -40.5,27.5
       parent: 1
-      type: Transform
-  - uid: 5062
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 5063
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5064
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5065
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-0.5
-      parent: 5016
       type: Transform
   - uid: 5195
     components:
@@ -101360,12 +99598,6 @@ entities:
     - pos: -61.5,41.5
       parent: 1
       type: Transform
-  - uid: 12033
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-7.5
-      parent: 5016
-      type: Transform
   - uid: 12512
     components:
     - rot: 1.5707963267948966 rad
@@ -101466,32 +99698,6 @@ entities:
     components:
     - pos: 12.5,-20.5
       parent: 1
-      type: Transform
-  - uid: 15569
-    components:
-    - pos: -7.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 15570
-    components:
-    - pos: -7.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 15590
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -9.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15621
-    components:
-    - pos: -17.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 15622
-    components:
-    - pos: -16.5,0.5
-      parent: 5016
       type: Transform
 - proto: TableCarpet
   entities:
@@ -101634,44 +99840,6 @@ entities:
     components:
     - pos: 12.5,31.5
       parent: 1
-      type: Transform
-  - uid: 11876
-    components:
-    - pos: -13.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11877
-    components:
-    - pos: -9.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 14988
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -7.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 14989
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -6.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 14990
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -5.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 15606
-    components:
-    - pos: -3.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 15607
-    components:
-    - pos: -2.5,-5.5
-      parent: 5016
       type: Transform
 - proto: TableReinforced
   entities:
@@ -102315,16 +100483,6 @@ entities:
     - pos: -72.5,47.5
       parent: 1
       type: Transform
-  - uid: 14982
-    components:
-    - pos: -13.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 14983
-    components:
-    - pos: -12.5,-7.5
-      parent: 5016
-      type: Transform
   - uid: 15012
     components:
     - pos: 18.5,48.5
@@ -102513,16 +100671,6 @@ entities:
     - rot: 1.5707963267948966 rad
       pos: 6.5,30.5
       parent: 1
-      type: Transform
-  - uid: 11859
-    components:
-    - pos: -11.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11860
-    components:
-    - pos: -11.5,2.5
-      parent: 5016
       type: Transform
 - proto: ToiletDirtyWater
   entities:
@@ -102716,62 +100864,6 @@ entities:
     - pos: 12.466422,-20.253323
       parent: 1
       type: Transform
-- proto: TorsoSlime
-  entities:
-  - uid: 15649
-    components:
-    - pos: -11.685202,-0.37485987
-      parent: 5016
-      type: Transform
-    - organs:
-        core:
-          parent: 15649
-          id: core
-        lungs:
-          parent: 15649
-          id: lungs
-      children:
-        left arm:
-          type: Arm
-          parent: 15649
-          id: left arm
-        right arm:
-          type: Arm
-          parent: 15649
-          id: right arm
-        left leg:
-          type: Leg
-          parent: 15649
-          id: left leg
-        right leg:
-          type: Leg
-          parent: 15649
-          id: right leg
-        head:
-          type: Head
-          parent: 15649
-          id: head
-      type: BodyPart
-    - containers:
-        bodypart: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        BodyContainer: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-      type: ContainerContainer
-    - nextSound: 1650.7109801
-      type: EmitSoundOnCollide
-    - type: Mind
-    - type: GhostOnMove
-    - lerpTarget: 0
-      type: InputMover
-    - baseSprintSpeed: 0
-      baseWalkSpeed: 0
-      acceleration: 0
-      type: MovementSpeedModifier
 - proto: ToyDeathRipley
   entities:
   - uid: 3184
@@ -103084,13 +101176,6 @@ entities:
         - port: Off
           uid: 14230
       type: SignalTransmitter
-- proto: UnfinishedMachineFrame
-  entities:
-  - uid: 5187
-    components:
-    - pos: -4.5,-5.5
-      parent: 5016
-      type: Transform
 - proto: UniformPrinter
   entities:
   - uid: 7560
@@ -103600,13 +101685,6 @@ entities:
       type: MetaData
     - pos: 5.5,31.5
       parent: 1
-      type: Transform
-  - uid: 15572
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -5.5,5.5
-      parent: 5016
       type: Transform
 - proto: VendingMachineMediDrobe
   entities:
@@ -105931,36 +104009,6 @@ entities:
     - pos: -56.5,-12.5
       parent: 1
       type: Transform
-  - uid: 5018
-    components:
-    - pos: -1.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5035
-    components:
-    - pos: -4.5,-1.5
-      parent: 5016
-      type: Transform
-  - uid: 5036
-    components:
-    - pos: -1.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 5037
-    components:
-    - pos: -4.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 5044
-    components:
-    - pos: -3.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 5049
-    components:
-    - pos: -2.5,3.5
-      parent: 5016
-      type: Transform
   - uid: 5072
     components:
     - rot: -1.5707963267948966 rad
@@ -105972,65 +104020,10 @@ entities:
     - pos: -76.5,3.5
       parent: 1
       type: Transform
-  - uid: 5123
-    components:
-    - pos: -10.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5124
-    components:
-    - pos: -10.5,-8.5
-      parent: 5016
-      type: Transform
-  - uid: 5126
-    components:
-    - pos: -10.5,-7.5
-      parent: 5016
-      type: Transform
-  - uid: 5164
-    components:
-    - pos: -10.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 5165
-    components:
-    - pos: -10.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 5166
-    components:
-    - pos: -10.5,-4.5
-      parent: 5016
-      type: Transform
   - uid: 5173
     components:
     - pos: -73.5,7.5
       parent: 1
-      type: Transform
-  - uid: 5208
-    components:
-    - pos: -11.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5209
-    components:
-    - pos: -14.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5222
-    components:
-    - pos: -14.5,-5.5
-      parent: 5016
-      type: Transform
-  - uid: 5223
-    components:
-    - pos: -14.5,-6.5
-      parent: 5016
-      type: Transform
-  - uid: 5224
-    components:
-    - pos: -14.5,-7.5
-      parent: 5016
       type: Transform
   - uid: 5379
     components:
@@ -107880,11 +105873,6 @@ entities:
     - pos: -45.5,67.5
       parent: 1
       type: Transform
-  - uid: 7408
-    components:
-    - pos: -14.5,-8.5
-      parent: 5016
-      type: Transform
   - uid: 7646
     components:
     - pos: -44.5,63.5
@@ -107949,21 +105937,6 @@ entities:
     components:
     - pos: -65.5,56.5
       parent: 1
-      type: Transform
-  - uid: 8057
-    components:
-    - pos: -13.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 8058
-    components:
-    - pos: -12.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 8059
-    components:
-    - pos: -11.5,-9.5
-      parent: 5016
       type: Transform
   - uid: 8324
     components:
@@ -108166,11 +106139,6 @@ entities:
     - rot: 1.5707963267948966 rad
       pos: -76.5,50.5
       parent: 1
-      type: Transform
-  - uid: 9263
-    components:
-    - pos: -14.5,-9.5
-      parent: 5016
       type: Transform
   - uid: 9264
     components:
@@ -108962,11 +106930,6 @@ entities:
       pos: -68.5,35.5
       parent: 1
       type: Transform
-  - uid: 10102
-    components:
-    - pos: -15.5,1.5
-      parent: 5016
-      type: Transform
   - uid: 10166
     components:
     - rot: -1.5707963267948966 rad
@@ -108977,51 +106940,6 @@ entities:
     components:
     - pos: -70.5,24.5
       parent: 1
-      type: Transform
-  - uid: 10466
-    components:
-    - pos: -14.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 10467
-    components:
-    - pos: -16.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 10468
-    components:
-    - pos: -17.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 10469
-    components:
-    - pos: -15.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 10470
-    components:
-    - pos: -18.5,1.5
-      parent: 5016
-      type: Transform
-  - uid: 10471
-    components:
-    - pos: -16.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 10472
-    components:
-    - pos: -18.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 10473
-    components:
-    - pos: -18.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 10542
-    components:
-    - pos: -18.5,-1.5
-      parent: 5016
       type: Transform
   - uid: 10690
     components:
@@ -109311,72 +107229,10 @@ entities:
       pos: -87.5,44.5
       parent: 1
       type: Transform
-  - uid: 10852
-    components:
-    - pos: -18.5,-2.5
-      parent: 5016
-      type: Transform
   - uid: 11050
     components:
     - pos: -69.5,36.5
       parent: 1
-      type: Transform
-  - uid: 11468
-    components:
-    - pos: -18.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 11469
-    components:
-    - pos: -18.5,-3.5
-      parent: 5016
-      type: Transform
-  - uid: 11470
-    components:
-    - pos: -17.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 11855
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -10.5,6.5
-      parent: 5016
-      type: Transform
-  - uid: 11857
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -9.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11866
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11867
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 11871
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -8.5,6.5
-      parent: 5016
-      type: Transform
-  - uid: 11873
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -10.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 13794
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -10.5,5.5
-      parent: 5016
       type: Transform
   - uid: 14037
     components:
@@ -111597,62 +109453,10 @@ entities:
     - pos: -55.5,25.5
       parent: 1
       type: Transform
-  - uid: 5019
-    components:
-    - pos: -1.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5028
-    components:
-    - pos: -4.5,-4.5
-      parent: 5016
-      type: Transform
   - uid: 5077
     components:
     - pos: -61.5,7.5
       parent: 1
-      type: Transform
-  - uid: 5114
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5115
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -2.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5116
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -3.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5118
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -5.5,-9.5
-      parent: 5016
-      type: Transform
-  - uid: 5119
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -6.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5120
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -5.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 5122
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -9.5,-9.5
-      parent: 5016
       type: Transform
   - uid: 5176
     components:
@@ -112712,11 +110516,6 @@ entities:
     - pos: -17.5,16.5
       parent: 1
       type: Transform
-  - uid: 10843
-    components:
-    - pos: -14.5,2.5
-      parent: 5016
-      type: Transform
   - uid: 11052
     components:
     - rot: 1.5707963267948966 rad
@@ -112728,66 +110527,6 @@ entities:
     - rot: 1.5707963267948966 rad
       pos: -74.5,54.5
       parent: 1
-      type: Transform
-  - uid: 11850
-    components:
-    - pos: -14.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11851
-    components:
-    - pos: -4.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11852
-    components:
-    - pos: -4.5,5.5
-      parent: 5016
-      type: Transform
-  - uid: 11853
-    components:
-    - pos: -4.5,6.5
-      parent: 5016
-      type: Transform
-  - uid: 11854
-    components:
-    - pos: -5.5,6.5
-      parent: 5016
-      type: Transform
-  - uid: 11856
-    components:
-    - pos: -7.5,6.5
-      parent: 5016
-      type: Transform
-  - uid: 11858
-    components:
-    - pos: -13.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11863
-    components:
-    - pos: -11.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11864
-    components:
-    - pos: -12.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11865
-    components:
-    - pos: -14.5,4.5
-      parent: 5016
-      type: Transform
-  - uid: 11868
-    components:
-    - pos: -8.5,3.5
-      parent: 5016
-      type: Transform
-  - uid: 11869
-    components:
-    - pos: -8.5,2.5
-      parent: 5016
       type: Transform
   - uid: 14010
     components:
@@ -116014,11 +113753,6 @@ entities:
     - pos: -67.5,9.5
       parent: 1
       type: Transform
-  - uid: 15633
-    components:
-    - pos: -15.5,2.5
-      parent: 5016
-      type: Transform
 - proto: WaterTankHighCapacity
   entities:
   - uid: 6945
@@ -116260,11 +113994,6 @@ entities:
     - pos: -67.5,8.5
       parent: 1
       type: Transform
-  - uid: 15634
-    components:
-    - pos: -16.5,2.5
-      parent: 5016
-      type: Transform
 - proto: Windoor
   entities:
   - uid: 275
@@ -116393,17 +114122,6 @@ entities:
       pos: 1.5,25.5
       parent: 1
       type: Transform
-  - uid: 15586
-    components:
-    - pos: -9.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15587
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -1.5,-7.5
-      parent: 5016
-      type: Transform
 - proto: WindoorCommandLocked
   entities:
   - uid: 10855
@@ -116508,18 +114226,6 @@ entities:
       pos: 6.5,13.5
       parent: 1
       type: Transform
-  - uid: 5058
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -4.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5059
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -4.5,-0.5
-      parent: 5016
-      type: Transform
 - proto: WindoorScienceLocked
   entities:
   - uid: 220
@@ -116551,12 +114257,6 @@ entities:
     - rot: 1.5707963267948966 rad
       pos: 1.5,25.5
       parent: 1
-      type: Transform
-  - uid: 5055
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,0.5
-      parent: 5016
       type: Transform
   - uid: 6655
     components:
@@ -116602,24 +114302,6 @@ entities:
       pos: -72.5,54.5
       parent: 1
       type: Transform
-  - uid: 13791
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 15588
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -9.5,-4.5
-      parent: 5016
-      type: Transform
-  - uid: 15589
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -1.5,-7.5
-      parent: 5016
-      type: Transform
 - proto: WindoorSecureCargoLocked
   entities:
   - uid: 3625
@@ -116663,30 +114345,6 @@ entities:
       type: Transform
 - proto: WindoorSecurityLocked
   entities:
-  - uid: 5056
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -1.5,0.5
-      parent: 5016
-      type: Transform
-  - uid: 5057
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -1.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 5060
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,-0.5
-      parent: 5016
-      type: Transform
-  - uid: 5061
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: -4.5,0.5
-      parent: 5016
-      type: Transform
   - uid: 5320
     components:
     - pos: -49.5,11.5
