@@ -35,7 +35,7 @@ public sealed class DefibrillatorSystem : EntitySystem
     [Dependency] private readonly DoAfterSystem _doAfter = default!;
     [Dependency] private readonly ElectrocutionSystem _electrocution = default!;
     [Dependency] private readonly EuiManager _euiManager = default!;
-    [Dependency] private readonly RottingSystem _rotting = default!;
+    [Dependency] private readonly MiasmaSystem _miasma = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
     [Dependency] private readonly MobThresholdSystem _mobThreshold = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
@@ -56,10 +56,7 @@ public sealed class DefibrillatorSystem : EntitySystem
 
     private void OnUnpaused(EntityUid uid, DefibrillatorComponent component, ref EntityUnpausedEvent args)
     {
-        if (component.NextZapTime == null)
-            return;
-
-        component.NextZapTime = component.NextZapTime.Value + args.PausedTime;
+        component.NextZapTime += args.PausedTime;
     }
 
     private void OnUseInHand(EntityUid uid, DefibrillatorComponent component, UseInHandEvent args)
@@ -118,7 +115,7 @@ public sealed class DefibrillatorSystem : EntitySystem
         if (component.Enabled)
             return false;
 
-        if (!_powerCell.HasActivatableCharge(uid))
+        if (_powerCell.HasActivatableCharge(uid))
             return false;
 
         component.Enabled = true;
@@ -156,7 +153,7 @@ public sealed class DefibrillatorSystem : EntitySystem
         if (_timing.CurTime < component.NextZapTime)
             return false;
 
-        if (!TryComp<MobStateComponent>(target, out var mobState) || _rotting.IsRotten(target))
+        if (!TryComp<MobStateComponent>(target, out var mobState) || _miasma.IsRotting(target))
             return false;
 
         if (!_powerCell.HasActivatableCharge(uid, user: user))
@@ -224,14 +221,14 @@ public sealed class DefibrillatorSystem : EntitySystem
             if (mindComp.Mind.CurrentEntity != target)
             {
                 _chatManager.TrySendInGameICMessage(uid, Loc.GetString("defibrillator-ghosted"),
-                    InGameICChatType.Speak, true);
+                    InGameICChatType.Speak, true, true);
                 _euiManager.OpenEui(new ReturnToBodyEui(mindComp.Mind), session);
             }
         }
         else
         {
             _chatManager.TrySendInGameICMessage(uid, Loc.GetString("defibrillator-no-mind"),
-                InGameICChatType.Speak, true);
+                InGameICChatType.Speak, true, true);
         }
 
         var sound = _mobState.IsAlive(target, mob) && session != null
@@ -251,12 +248,10 @@ public sealed class DefibrillatorSystem : EntitySystem
         var query = EntityQueryEnumerator<DefibrillatorComponent>();
         while (query.MoveNext(out var uid, out var defib))
         {
-            if (defib.NextZapTime == null || _timing.CurTime < defib.NextZapTime)
+            if (_timing.CurTime < defib.NextZapTime)
                 continue;
-
             _audio.PlayPvs(defib.ReadySound, uid);
             _appearance.SetData(uid, DefibrillatorVisuals.Ready, true);
-            defib.NextZapTime = null;
         }
     }
 }

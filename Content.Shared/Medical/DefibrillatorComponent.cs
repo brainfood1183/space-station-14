@@ -24,7 +24,7 @@ public sealed class DefibrillatorComponent : Component
     /// The time at which the zap cooldown will be completed
     /// </summary>
     [DataField("nextZapTime", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan? NextZapTime;
+    public TimeSpan NextZapTime = TimeSpan.Zero;
 
     /// <summary>
     /// The minimum time between zaps
@@ -62,29 +62,29 @@ public sealed class DefibrillatorComponent : Component
     /// <summary>
     /// The sound when someone is zapped.
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField("zapSound")]
-    public SoundSpecifier? ZapSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_zap.ogg");
+    [DataField("zapSound")]
+    public SoundSpecifier? ZapSound;
 
     /// <summary>
     /// The sound when the defib is powered on.
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField("powerOnSound")]
-    public SoundSpecifier? PowerOnSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_safety_on.ogg");
+    [DataField("powerOnSound")]
+    public SoundSpecifier? PowerOnSound;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField("powerOffSound")]
-    public SoundSpecifier? PowerOffSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_safety_off.ogg");
+    [DataField("powerOffSound")]
+    public SoundSpecifier? PowerOffSound;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField("chargeSound")]
-    public SoundSpecifier? ChargeSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_charge.ogg");
+    [DataField("chargeSound")]
+    public SoundSpecifier? ChargeSound;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField("failureSound")]
-    public SoundSpecifier? FailureSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_failed.ogg");
+    [DataField("failureSound")]
+    public SoundSpecifier? FailureSound;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField("successSound")]
-    public SoundSpecifier? SuccessSound = new SoundPathSpecifier("/Audio/Items/Defib/defib_success.ogg");
+    [DataField("successSound")]
+    public SoundSpecifier? SuccessSound;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField("readySound")]
-    public SoundSpecifier? ReadySound = new SoundPathSpecifier("/Audio/Items/Defib/defib_ready.ogg");
+    [DataField("readySound")]
+    public SoundSpecifier? ReadySound;
 }
 
 [Serializable, NetSerializable]
